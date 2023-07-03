@@ -87,3 +87,10 @@ export const Status = styled.span<StatusProps>`
     background: ${(props) => props.theme[STATUS_COLORS[props.statusColor]]};
   }
 `;
+
+export const NoProjectsMessage = styled.h2`
+  text-align: center;
+  margin-top: 4rem;
+  color: ${(props) => props.theme["gray-100"]};
+  font-size: 1.25rem;
+`;

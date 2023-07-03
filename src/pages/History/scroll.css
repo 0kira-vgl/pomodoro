@@ -21,3 +21,18 @@
 ::-webkit-scrollbar-track:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+.DeleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: #8d8d99;
+  cursor: pointer;
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
